@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('img/background1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 33px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Exo 2', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.perfil {
+    height: 200px;
+    margin-top: 40px;
+    align-self: center;
+}
+
+.photo {
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ffff;
+    box-shadow: 0 0 10px #fff;
+}
+
+
+.social-media {
+    width: 230px;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon {
+    border-radius: 10px;
+    height: 40px;
+}
+
+.social-icon:hover {
+    box-shadow: 0 0 10px #fff;
+}
+
+.link-list {
+    margin: 30px auto 0;
+    padding: 0 50px 30px;
+}
+
+.link-list li {
+    background: #fff;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff;
+}
+
+.link-list li:hover {
+    box-shadow: 0 0 20px #fff;
+}
+
+.link-list li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: purple;
+}
+
+.link-list li a span {
+    display: block;
+    color: grey;
+}
+
+.link-list li a p {
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.link-list li img {
+    height: 100px;
+    display: inline;
+    border-radius: 50%;
+}
+
+/* Página serviço unha em gel */
+
+.service-img {
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+.back {
+    padding-left: 30px;
+}
+
+.back img {
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.back img:hover {
+    box-shadow: 0 0 10px #fff;
+}
+
+.back span {
+    display: block;
+}
+
+.service-text {
+    color: gray;
+}
+
+.service-desc {
+    border-radius: 10px 10px 0 0;
+    background: #fff;
+    padding: 10px 30px 50px;
+    margin: 30px;
+}
+
+.service-desc h2 {
+    color: purple;
+}
